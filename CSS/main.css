@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#img{
+    background-image: url('../IMG/123.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-size: cover;
+
+}
+h1{
+    
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+   
+
+}
+p{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-decoration: none;
+}
+p a{
+    
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+p a:hover{
+    color: rgb(206, 202, 202);
+}
+
+#footpar{
+    position: relative;
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    padding: 36px;
+    text-align: center;
+}
+#footpar a{
+    color:rgb(200, 200, 200);
+}
+#footpar a:hover{
+    color:rgb(95, 114, 129);
+    text-decoration: none;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+#img{
+    height: 382px;
+    width: auto;
+}
+h1{
+    width: 340px;
+    height: auto;
+}
+p{
+    width: 340px;
+    height: auto;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+    #img{
+        height: 382px;
+        width: auto;
+    }
+    h1{
+        width: 540px;
+        height: auto;
+        font-size: 48px;
+        
+    }
+    p{
+        width: 540px;
+        height: auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #img{
+        height: 514px;
+        width: auto;
+    }
+    h1{
+        width: 720px;
+        height: auto;
+        font-size: 60px;
+        font-weight: 700;
+        
+    }
+    p{
+        width: 720px;
+        height: auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+    #img{
+        height: 617px;
+        width: auto;
+    }
+    h1{
+        width: 720px;
+        font-size: 60px;
+        font-weight: 700;
+        
+    }
+   
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #img{
+        height: 814px;
+        width: auto;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 40px;
+    }
+    h1{
+        
+        min-width: 1040px;
+        height: auto;
+        font-size: 72px;
+        font-weight: 700;
+        
+    }
+    
+}
